@@ -26,7 +26,7 @@ The technologies I used to create this are HTML, CSS and JS.
 ## Installation Instructions / Getting Started
 If you want to try the app you can either fork or clone the repository how you want. 
 
-##Website URL: https://vbc221.github.io/Triva-app-/
+## App Url: https://vbc221.github.io/Triva-app-/
 
-##Issues throughout the process:
+## Issues throughout the process:
 I wrote everything else I needed to create in my javascript but ended up just writing one big function. I had to restart because I was getting lost having everything in one block of code. Learned about the importance of breaking things apart into simpler pieces and console logging things to see what was being accessed. 
