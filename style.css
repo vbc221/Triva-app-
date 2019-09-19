@@ -113,7 +113,7 @@ label {
 } 
 
 form{
-  width:600px;
+  width:800px;
   text-align: center;
 }
 
@@ -138,9 +138,5 @@ input{
 @media screen and (max-width: 431px) {
   form{
     width:300px;
-  }
-
-  header{
-    font-size:15px;
   }
 }
