@@ -113,7 +113,7 @@ label {
 } 
 
 form{
-  width:800px;
+  width:600px;
   text-align: center;
 }
 
@@ -125,15 +125,11 @@ input{
 
 @media screen and (max-width: 811px) {
   form{
-    width:600px;
-  }
-}
-
-@media screen and (max-width: 611px) {
-  form{
     width:400px;
   }
 }
+
+
 
 @media screen and (max-width: 431px) {
   form{
