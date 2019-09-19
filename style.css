@@ -139,4 +139,8 @@ input{
   form{
     width:300px;
   }
+
+  header{
+    font-size:15px;
+  }
 }
