@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel='stylesheet' href='style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <ul>
+        <li>Question:<span class='questionNumber'>0</span>/10</li>
+        <li>Score:<span class='score'>0</span></li>
+      </ul>
+    </header>
+    <h1 class='startingQuestion'>Do you know your Capitals?</h1>
+    <img class='countryImage' src=''>
+    <img class='resultImage' src=''>
+    <button class='startButton'>Start</button>
+    <button class='nextButton'>Next Question</button>
+    <button class='restartButton'>Restart</button>
+    <div class='questionBox'>
+      <h2>Do you know your capitals</h2>
+      <form class='questionForm'>
+        <label>
+          <input type='radio' class='radios' value='q1' name='answer' required>
+          <span class='question1'>placeHolder1</span>
+        </label>
+        <label>
+          <input type='radio' class='radios' value='q2' name='answer' required>
+          <span class='question2'>placeHolder2</span>
+        </label>
+        <label>
+          <input type='radio' class='radios' value='q3' name='answer' required>
+          <span class='question3'>placeHolder3</span>
+        </label>
+        <label>
+          <input type='radio' class='radios' value='q4' name='answer' required>
+          <span class='question4'>placeHolder4</span>
+        </label>
+        <button class='submitButton'>Submit</button>
+      </form>
+    </div>
+  </div>
+    <script src='app.js'></script>
+</body>
+</html>
