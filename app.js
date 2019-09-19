@@ -194,7 +194,7 @@ function rightResult(){
   next.style.display = 'block';
   quizQuestions.style.display = 'none';
   startQuestion.style.display = 'block';
-  startQuestion.innerHTML = `You are right! The correct answer is ${correctA}`;
+  startQuestion.innerHTML = `You are right!<br> The correct answer is ${correctA}`;
 }
 //wrong result
 function wrongResult(){
@@ -204,7 +204,7 @@ function wrongResult(){
   next.style.display = 'block';
   quizQuestions.style.display = 'none';
   startQuestion.style.display = 'block';
-  startQuestion.innerHTML = `You are wrong. The correct answer is ${correctA}`; 
+  startQuestion.innerHTML = `You are wrong. <br>The correct answer is ${correctA}`; 
 }
 
 //increment score 
@@ -245,15 +245,15 @@ function renderResults(){
   if(score>=7){
     resultImg.style.display='block'
     resultImg.src ='https://thumbor.thedailymeal.com/260hkFEzsOuCmmxztIpZncts5c4=/774x516/https://www.theactivetimes.com/sites/default/files/uploads/0/0-shutterstock_397569799.jpg'
-    startQuestion.innerHTML = `You know your countries! Your score was ${score}/10`;
+    startQuestion.innerHTML = `You know your countries!<br> Your score was ${score}/10`;
   } else if(score>4&&score<7){
     resultImg.style.display = 'block'
     resultImg.src = 'https://www.euroweeklynews.com/wp-content/uploads/2018/11/shutterstock_232923259-696x464.jpg'
-    startQuestion.innerHTML = `You seem like you kind of know your stuff. Your score was ${score}/10`;
+    startQuestion.innerHTML = `You seem like you kind of know your stuff.<br> Your score was ${score}/10`;
   }else{
     resultImg.style.display = 'block'
     resultImg.src = 'https://www.gtitravel.com/wp-content/uploads/2017/06/Do-Travel-Agents-get-free-trips-1030x686.jpg'
-    startQuestion.innerHTML = `Looks like you need to travel more. Your score was ${score}/10`;
+    startQuestion.innerHTML = `Looks like you need to travel more.<br> Your score was ${score}/10`;
   }
   
 }
