@@ -2,7 +2,7 @@ Description:
 Created a quiz app that tests your knowledge on capitals of different countries. Quiz contains 10 questions and tracks your correct and wrong answers throughout the quiz. 
 
 Brief Example:
-![alt text](http://url/to/app.png)
+![alt text](images/app.png)
 
 
 List of Features / User Stories
