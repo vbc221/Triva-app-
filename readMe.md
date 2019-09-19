@@ -1,3 +1,4 @@
+https://github.com/vbc221/Triva-app-.wiki.git
 Description:
 Created a quiz app that tests your knowledge on capitals of different countries. Quiz contains 10 questions and tracks your correct and wrong answers throughout the quiz. 
 
